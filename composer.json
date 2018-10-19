@@ -1,0 +1,29 @@
+{
+    "name": "michaelesmith/dyndns-processor-cache",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Smith",
+            "email": "sitecross@gmail.com"
+        }
+    ],
+    "require": {
+        "michaelesmith/dyndns-kit": "@dev",
+        "psr/cache": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4",
+        "mockery/mockery": "^1.2"
+    },
+    "suggest": {
+        "cache/cache": "Library of all the php-cache adapters",
+        "symfony/cache": "Symfony Cache component with PSR-6, PSR-16, and tags"
+    },
+    "autoload": {
+        "psr-4": {"DynDNSKit\\Processor\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": {"DynDNSKit\\Tests\\Unit\\": "tests/unit", "DynDNSKit\\Tests\\Common\\": "tests/common"}
+    }
+}

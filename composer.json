@@ -1,5 +1,6 @@
 {
     "name": "michaelesmith/dyndns-processor-cache",
+    "description": "a processor for the dyndns-kit framework to allow processors to be cached",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,7 +10,7 @@
         }
     ],
     "require": {
-        "michaelesmith/dyndns-kit": "@dev",
+        "michaelesmith/dyndns-kit": "^0.1",
         "psr/cache": "^1.0"
     },
     "require-dev": {
